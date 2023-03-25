@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PollsVK3</string>
+    <integer name="com_vk_sdk_AppId">51592063</integer>
+</resources>
