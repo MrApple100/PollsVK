@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="id_VK_автора (mrapple100)"
+        android:text="@string/id_vk_mrapple100"
         android:gravity="center"
         >
     </TextView>
@@ -29,7 +29,7 @@
     <TextView
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="id_Poll"
+        android:text="@string/id_poll"
         android:gravity="center"
         >
     </TextView>
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="Список нужных людей"
+        android:text="@string/list_needed_people"
         android:gravity="center"
         >
     </TextView>
@@ -53,7 +53,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="Выполнить"
+        android:text="@string/execute"
         android:onClick="@{()->vm.VKClick()}"
         ></Button>
     <TextView

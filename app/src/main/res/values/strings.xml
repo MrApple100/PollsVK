@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">PollsVK3</string>
+    <string name="id_vk_mrapple100">id_VK_автора (mrapple100)</string>
+    <string name="id_poll">id_Poll</string>
+    <string name="list_needed_people">Список нужных людей</string>
+    <string name="execute">Выполнить</string>
     <integer name="com_vk_sdk_AppId">51592063</integer>
 </resources>

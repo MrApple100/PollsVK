@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        vkRepository.saveValue("textScreenName",vkViewModel.textScreenName.getValue());
-        vkRepository.saveValue("textIdPoll",vkViewModel.textIdPoll.getValue());
-        vkRepository.saveValue("textListUsers",vkViewModel.textListUsers.getValue());
-
-
-        Toast.makeText(this, "SAVE NICE!", Toast.LENGTH_SHORT).show();
+//        vkRepository.saveValue("textScreenName",vkViewModel.textScreenName.getValue());
+//        vkRepository.saveValue("textIdPoll",vkViewModel.textIdPoll.getValue());
+//        vkRepository.saveValue("textListUsers",vkViewModel.textListUsers.getValue());
+//
+//
+//        Toast.makeText(this, "SAVE NICE!", Toast.LENGTH_SHORT).show();
 
     }
 

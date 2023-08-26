@@ -7,8 +7,10 @@ public class VkRepository {
 
     private SharedPreferences preferences;
 
+    private String CONST_PREF = "PREF" ;
+
     public VkRepository(Context context) {
-        this.preferences = context.getSharedPreferences("PREF",Context.MODE_PRIVATE);
+        this.preferences = context.getSharedPreferences(CONST_PREF,Context.MODE_PRIVATE);
     }
     public void saveValue(String key,String value){
         SharedPreferences.Editor editor = preferences.edit();
